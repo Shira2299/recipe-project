@@ -1,0 +1,65 @@
+*{
+     direction: rtl;
+}
+form{
+     margin-left: 20%;
+}
+
+h1{
+     margin-right: 55%;
+}
+
+p{
+     margin-right: 20%;
+}
+
+button{
+     margin-right: 55%; 
+     color: white;
+     background-color: #c24b7e;
+     padding: 15px 32px;
+     text-decoration: none;
+     display: inline;
+     font-size: 16px;
+     cursor: pointer;
+     /* border: none; */
+}
+.wrapper{
+     display: flex;
+     /* הורדת שורה אוטומטי שלא יהיה את הגלגלת למטה */
+     /* יפיל שורות במידה ואין מקום בשורה */
+     flex-wrap: wrap;
+     /* בכדי שיהיה פיזור מרווחים זהים */
+     /* מבצע הצמדה לצדדים */
+     justify-content: space-between;
+     /* הגדרת צבע רקע בגוון ורוד */
+     /* background-color: #ecccda;  */
+     background-color: #f8c5db; 
+     /* margin-left: 10%; */
+     margin-right: 20%;
+     /* לפעמיים הצבע רקע מגיע עד בדיוק הסיום של הינפוט ואנחנו רוצים שיהיה גם קצת אחרי */
+     /* padding-right: 20px; */
+     /* אפשר גם לעשות ללמעלה אז נשתמש  בפאדינג ונכתוב כמו בשעון הראשון זה למעלה השני זה ימין וכו */
+     padding: 20px 20px 0px 0px;
+ }
+
+ .detail{
+     display: flex;
+     flex-direction: column;
+     flex-basis: 30%;
+     margin-bottom: 30px;
+ }
+ 
+ .det-label{
+ color: #333;
+ font-size: 14px;
+ }
+ 
+ .det-input{
+     width: 250px;
+     height: 30px;
+     border: solid 1px #3d759a;
+     border-radius: 3px 3px 3px 3px;
+ }
+
+ 

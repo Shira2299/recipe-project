@@ -1,0 +1,36 @@
+<h2>{{recipe.name}}</h2>
+<div>
+<img [src]="recipe.img" alt="Recipe Image" class="pic" /><br />
+<!-- <button (click)="check_recipe(recipe.id)" *ngIf="name">בדוק מתכון</button>
+<button (click)="deleteRecipe(recipe.id)"*ngIf="my_recipe" >מחיקת מתכון</button>
+<button (click)="edit()" *ngIf="my_recipe">עריכת מתכון</button>
+<form [formGroup]="form" (submit)="saveEdit()" *ngIf="_edit">
+    <input type="text" formControlName="during" placeholder="during" >
+    <input type="text" formControlName="level" placeholder="level" >
+    <div formArrayName="products">
+        <div *ngFor="let product of form.value.products; let i = index">
+          <div [formGroupName]="i">
+            <input type="text" formControlName="name" placeholder="name">
+            <input type="text" formControlName="count" placeholder="count">
+            <input type="text" formControlName="type" placeholder="type">
+          </div>
+        </div>
+      </div>
+    <button type="submit">שמירה</button>
+</form> -->
+<h4>זמן ההכנה: {{recipe.during}}</h4>
+<h4>רמת קושי: {{recipe.level}}</h4>
+<h3><u>מוצרים:</u></h3>
+<h4 *ngFor="let i of recipe.products">{{i.product_id}}.   {{i.count}}  {{i.type}}  {{i.name}}</h4>
+
+<h3><u>הוראות:</u></h3>
+<!-- <li *ngFor="let i of recipe.instructions" >{{i}}</li> -->
+<li *ngFor="let i of recipe.instructions">
+  <ng-container *ngIf="isString(i); else objectTemplate">
+    {{i}}
+  </ng-container>
+  <ng-template #objectTemplate>
+    {{i.instructions }}
+  </ng-template>
+</li>
+</div>

@@ -1,0 +1,36 @@
+/*עיצוב כללי לדף*/
+body {
+    /* direction:rtl; */
+    }
+    /* עיצוב כותרת */
+    /* h1 {
+        font-size: 60px;
+        color: #c24b7e;
+        text-align: center;
+    } */
+    /*עיצוב לפסקאות */
+    p {
+        font-size: 30px;
+        font-family: Arial;
+        color: #c24b7e;
+        font-size: xx-large;
+        text-align: center;
+    }
+    #color{
+        color: black;
+    }
+    /* עיצוב לוידאו */
+#video{
+    width: 40%;
+    height: auto;
+    position: relative;
+    /* z-index: -1; */
+    right: 30%;
+    margin-left: 60vw;
+}
+
+/* עיצוב למלל */
+pre{
+    text-align: center;
+    font-size: xx-large;
+}

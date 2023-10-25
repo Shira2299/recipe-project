@@ -1,0 +1,4 @@
+<h2>רשימת קניות:</h2>
+  <li *ngFor="let item of customer[1].shoppingList">
+    {{ item }} <button (click)="delete(item)">קניתי</button>
+  </li>

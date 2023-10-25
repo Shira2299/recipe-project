@@ -1,0 +1,30 @@
+<form [formGroup]="form" (submit)="addClient()">
+        <h1>כניסה למערכת</h1>
+        <div class="wrapper">
+        <div class="detail">
+        <label class="det-label">*מזהה לקוח:</label>
+        <input type="text" formControlName="id" class="det-input"/><br><br>
+        </div>
+        <div class="detail">
+        <label class="det-label">*שם לקוח:</label>
+        <input type="text" formControlName="name" class="det-input"/><br><br>
+        </div>
+        <div class="detail">
+        <label class="det-label">טלפון:</label>
+        <input type="text" formControlName="phone" class="det-input"/><br><br>
+        </div>
+        <div class="detail">
+        <label class="det-label">דרך ליצירת קשר:</label>
+        <input type="text" formControlName="contactMethod" class="det-input"/><br><br>
+        </div>
+        <div class="detail">
+        <label class="det-label">*סיסמא:</label>
+        <input type="password" formControlName="password" class="det-input"/><br><br>
+        </div> 
+        <!-- הוספתי בכוונה כך שיהיה סמטרי ויפה גם בשורה האחרונה אם לא יהיה לי 3 אלמנטים בשורה האחרונה -->
+        <div class="detail"></div>
+        </div>
+        <p>*מציין שדות חובה</p>
+        <br><br>
+        <button type="submit" [disabled]="form.invalid">Submit</button>
+</form>

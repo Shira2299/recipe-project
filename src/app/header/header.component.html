@@ -1,0 +1,24 @@
+<nav class="mid">
+   <div class="user-info" *ngIf="name">
+      <button class="user" (click)="out()" title="Logout">{{name}}</button>
+  </div>
+    <img src="../../assets/img/מתכונים ב10 דקות פלוס פס1.png"><br> 
+    <div class="inline-links">
+      <button (click)="my()" class="btn" *ngIf="name">מתכונים שלי</button>
+     <button (click)="all()" class="btn">מתכונים</button>
+     <!-- <button (click)="leader()" class="btn">מדריך</button> -->
+     <button (click)="add()" class="btn" *ngIf="name">להוספת מתכון</button>
+     <button (click)="about()" class="btn">אודות</button>
+     <button (click)="login()" class="btn">הרשמה</button>
+     <div class="dropdown">
+        <button class="dropbtn" >ראשי</button>
+        <div class="dropdown-content">
+        <!-- <a href="pages/homepage1.html" target="conect"><img src="../../assets/img/שעון.png"></a> -->
+        <button (click)="about()" class="btn">אודות</button>
+        <button (click)="all()" class="btn">מתכונים</button>
+        <button (click)="buy()" class="btn" *ngIf="name">קניות</button>
+        <!-- <button (click)="leader()" class="btn">מדריך</button> -->
+        <button (click)="add()" class="btn" *ngIf="name">להוספת מתכון</button>
+       </div></div>
+    </div>
+ </nav>

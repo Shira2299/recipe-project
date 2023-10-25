@@ -1,0 +1,11 @@
+/* עיצוב כללי לדף */
+*{
+    direction: rtl;
+    text-align: center;
+}
+/*עיצוב לפסקה*/
+p {
+    color: #ffff;
+    font-size: large;
+    margin: 6px;
+}

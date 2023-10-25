@@ -1,0 +1,135 @@
+/* עיצוב לקישוריות */
+.mid a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 14px 16px;
+}
+.btn{
+    background-color: #292c33;
+    color: white;
+    padding: 14px 16px;
+    font-size: x-large;
+    border: none;
+    cursor: pointer;
+}
+.mid .btn{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 14px 16px;
+}
+/* עיצוב לקישוריות בעת מעבר העכבר */
+.mid a:hover{
+    color: #c24b7e;
+}
+
+.mid .btn:hover{
+    color: #c24b7e;
+}
+
+/* עיצוב ללוגו */
+#logo{
+    width: 100%;
+    height: auto;
+}
+
+/* עיצוב לקישוריות */
+a:link,a:visited{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 25px;
+}
+
+.btn:link,.btn:visited{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 25px;
+}
+/* התמונה שבהידר */
+img{
+    height: 70px;
+    width: 300px;
+}
+
+.a{
+    width: 25vw;
+    height: 15vh;
+    margin: 3vw;
+    padding: 3vw;
+}
+.mid{
+    text-align: center;
+    font-size: xx-large;
+}
+.inline-links a {
+    display: inline;
+    margin-right: 10px; /* Add spacing between links if needed */
+  }
+  .inline-links .btn {
+    display: inline;
+    margin-right: 10px; /* Add spacing between links if needed */
+  }
+       /* קלאס הראשי שבו הפתחית קישוריות */
+       .dropbtn {
+        background-color: #292c33;
+        color: white;
+        padding: 14px 16px;
+        font-size: x-large;
+        border: none;
+        cursor: pointer;
+      }
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #292c33;
+        min-width: 120px;
+        /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+        z-index: 1;
+      }
+      .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      .dropdown-content a:hover {color: #c24b7e}
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .dropdown:hover .dropbtn {
+        color: #c24b7e;
+      }
+      div>a>img{
+          height: 60px;
+          width: 55px;
+      }
+
+      .user-info {
+        float: left;
+        margin-left: 10px; /* Adjust the margin as needed */
+        margin-top: 1px;
+    }
+
+    .user {
+       /* Set your desired background color */
+        background-color: #c24b7e; 
+        /* Text color */
+        color: #fff; 
+        border-radius: 50%; /* Round frame */
+        padding: 5px 15px; /* Adjust the padding as needed */
+        font-size: 16px; /* Adjust the font size as needed */
+        cursor: pointer;
+    }
+    
+      

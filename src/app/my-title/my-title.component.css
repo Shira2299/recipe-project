@@ -1,0 +1,64 @@
+/* עיצוב כללי לדף */
+*{
+    direction: rtl;
+    }
+    /*עיצוב לכותרות ולפסקאות */
+    h1, h2, h3, p {
+        color: #c24b7e;
+    }
+    /*עיצוב כותרות */
+    h1, h2, h3, ol, li, ul {
+        font-size: xx-large;
+    }
+    #count {
+        color: #c24b7e;
+        text-decoration: solid !important;
+        text-decoration-color: #c24b7e !important;
+        font-size: xx-large;
+    }
+    #main1,#main2{
+        display: flex;
+        justify-content: space-around;
+        width: 80%;   
+        padding-right: 9vw;   
+    }
+    /* גודל התמונות */
+    img{
+        height: 280px;
+        width: 400px; 
+        cursor: pointer;
+    }
+    p>img{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    #all{  
+        justify-content: space-around;
+      display: flex;
+    }
+    .a{
+        border:black 1px solid;  
+        margin: 5px;      
+      }
+      /* עיצוב הספאן */
+      span{
+          color: #c24b7e; 
+          font-size: 30px;  
+      }
+      /* עיצוב כיתוב מתחת לתמונה בספאן */
+      .span{
+          background-color: wheat;
+          text-align: center;
+      }
+      /* בעת מעבר על הדיב */
+      div .a:hover{
+        border: 1px solid #c24b7e;
+        opacity: 0.6;
+      }
+        button{
+            background-color: #c24b7e;
+            color: white;
+        }
+    
+    

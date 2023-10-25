@@ -1,0 +1,49 @@
+body{
+    overflow-x: hidden;
+    padding-top:0vh;
+    margin-top: 0vh;
+}
+.header{
+    border-color: #292c33;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #292c33;  
+    top: 0;  
+}
+
+/* עיצוב למאין*/
+.main {
+    height:71vh; 
+    overflow-y: scroll; 
+    flex-grow: 1; /* Allow main content to grow and fill available space */
+    padding: 20px;
+}
+
+/* .router-outlet{
+    width:100vw;
+    border:none;
+    margin-top: 20vh;
+     overflow-y: scroll; 
+     height:100%;
+} */
+
+/* עיצוב לפוטר */
+.footer{
+    /* background-color: #292c33;
+    height:9vh;
+    width: 100vw;
+    position:fixed;
+    bottom: 0%;
+    z-index: 1; */
+    background-color: #292c33;
+    position: absolute;
+    height:9vh;
+    width: 100vw;
+    margin-top: 10vh;
+}
+
+
+
+  
