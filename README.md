@@ -17,7 +17,7 @@ We welcome contributions to this project. If you would like to contribute or rep
 5. Create a pull request to the main repository.
 
 ## Frequently Asked Questions
-## How do I create a new recipe?
+### How do I create a new recipe?
 To create a new recipe, you need to register. Click the "New Recipe" button. Fill in the recipe details and save.
 
 ### Enjoy😀
