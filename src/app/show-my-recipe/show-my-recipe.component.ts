@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Recipe } from '../recipe.model';
+import { Recipe } from '../models/recipe.model';
 import { FormArray, FormControl, FormGroup } from '@angular/forms';
 import { BookService } from '../book.service';
 import { ActivatedRoute, Router } from '@angular/router';

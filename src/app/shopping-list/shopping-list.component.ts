@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { BookService } from '../book.service';
-import { Customer } from '../customer.model';
+import { Customer } from '../models/customer.model';
 
 @Component({
   selector: 'app-shopping-list',

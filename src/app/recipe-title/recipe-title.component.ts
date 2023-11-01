@@ -1,5 +1,6 @@
+
 import { Component, Input } from '@angular/core';
-import { Recipe } from '../recipe.model';
+import { Recipe } from '../models/recipe.model';
 import { Router } from '@angular/router';
 import { BookService } from '../book.service';
 @Component({
