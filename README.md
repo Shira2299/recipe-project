@@ -20,4 +20,4 @@ We welcome contributions to this project. If you would like to contribute or rep
 ## How do I create a new recipe?
 To create a new recipe, you need to register. Click the "New Recipe" button. Fill in the recipe details and save.
 
-### Enjoy!
+### Enjoy😀
