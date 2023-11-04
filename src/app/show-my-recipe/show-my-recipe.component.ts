@@ -86,7 +86,7 @@ export class ShowMyRecipeComponent {
       const recipeIds = this.service.customers[1].recipeIds as number[];
       console.log('recipeIds',recipeIds);
       
-      if (recipeIds) {
+      if (recipeIds) {//אם קיים משהו במערך
         const ind = recipeIds.indexOf(recipeId);
   
         if (ind !== -1) {
@@ -94,7 +94,6 @@ export class ShowMyRecipeComponent {
           console.log('this.service.customers[1].recipeIds', recipeIds);
         }
       }
-  
       this.route.navigate(['/list']);
     }
   }

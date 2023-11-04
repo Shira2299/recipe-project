@@ -19,11 +19,9 @@ export class MyTitleComponent {
 
   //מאיפה הוא מקבל את ה-ID??
   material() {
-    console.log('recipe',this.recipe);
-    
-      console.log("id",this.recipe.id);
-      console.log(this.recipe.products);
-      
+     console.log('recipe',this.recipe);   
+     console.log("id",this.recipe.id);
+     console.log(this.recipe.products);  
      this.route.navigate(["/my_recipe",this.recipe.id]) 
   }
 

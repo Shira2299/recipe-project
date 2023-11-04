@@ -21,9 +21,10 @@ export class ShowRecipeComponent implements OnInit {
   public editedRecipe: Recipe=new Recipe(); // Store the edited recipe
 
 //אשמח על מה שהבאנו בבנאי ועל הפונקציה למטה
-  constructor(private routeActive: ActivatedRoute, private service: BookService,private route: Router) {
+  constructor(private routeActive: ActivatedRoute, private service: BookService) {
       this.name = localStorage.getItem("name");
   }
+  
   form: FormGroup = new FormGroup({
     during: new FormControl('',[]),
     level: new FormControl('',[]),
