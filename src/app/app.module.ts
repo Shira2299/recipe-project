@@ -17,6 +17,7 @@ import { MyListComponent } from './my-list/my-list.component';
 import { MyTitleComponent } from './my-title/my-title.component';
 import { ShowMyRecipeComponent } from './show-my-recipe/show-my-recipe.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
+import { MatDialogModule } from '@angular/material/dialog'; // וודא שהספריה יובאה
 
 
 @NgModule({
@@ -41,6 +42,7 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+    MatDialogModule, // הוסף זאת
   ],
   providers: [],
   bootstrap: [AppComponent]

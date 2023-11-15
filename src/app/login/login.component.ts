@@ -1,8 +1,9 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, ViewChild, TemplateRef } from '@angular/core';
 import { FormArray, FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { BookService } from '../book.service';
 import { Customer } from '../models/customer.model';
+import { MatDialog } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-login',
@@ -10,10 +11,11 @@ import { Customer } from '../models/customer.model';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
+  @ViewChild('dialogContent') dialogContent!: TemplateRef<any>;
 
   exist: boolean = false;
 
-  constructor(private service: BookService, private route: Router) {
+  constructor(private service: BookService, private route: Router, public dialog: MatDialog) {
     console.log('service',this.service.customers);  
   }
  
@@ -50,7 +52,21 @@ addClient() {
   localStorage.setItem('name', this.form.value.name); 
   localStorage.setItem('id', this.form.value.id); 
   this.exist = true;
+  // location.reload();
+}
+
+openDialog(): void {
+  this.dialog.open(this.dialogContent);
+}
+
+closeDialog(): void {
+  this.dialog.closeAll();
   location.reload();
+}
+
+addClientAndOpenDialog() {
+  this.addClient();
+  this.openDialog();
 }
 
 }

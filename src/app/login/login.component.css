@@ -9,11 +9,11 @@ h1{
      margin-right: 55%;
 }
 
-p{
+.p1{
      margin-right: 20%;
 }
 
-button{
+.btn{
      margin-right: 55%; 
      color: white;
      background-color: #c24b7e;
@@ -61,5 +61,38 @@ button{
      border: solid 1px #3d759a;
      border-radius: 3px 3px 3px 3px;
  }
+
+ .dialog-content{
+     color: #c24b7e;
+     height: 20vh;
+     width: 20vw;
+     font-size: xx-large;
+ }
+
+ .dialog-button{
+     /* margin-right: 55%;  */
+     /* margin-left: 5px; */
+     color: white;
+     background-color: #c24b7e;
+     padding: 5px 10px;
+     text-decoration: none;
+     display: inline;
+     font-size: 14px;
+     cursor: pointer;
+     border-radius: 25%;
+     margin-left: 17%;
+     margin-bottom: 15px;
+     /* border: none; */
+}
+
+.p_dialog {
+     font-size: 30px; /* גודל פונט גדול יותר */
+     color: #333;
+     margin-bottom: 10px; /* מרווח מתחת לטקסט */
+     margin-right: 38%;
+   }
+/* .p_dialog{
+     margin-right: 10px;
+} */
 
  
