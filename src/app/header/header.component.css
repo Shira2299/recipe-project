@@ -7,7 +7,8 @@
     padding: 14px 16px;
 }
 .btn{
-    background-color: #292c33;
+    /* background-color: #292c33; */
+    background-color: black;
     color: white;
     padding: 14px 16px;
     font-size: x-large;
@@ -78,7 +79,8 @@ img{
   }
        /* קלאס הראשי שבו הפתחית קישוריות */
        .dropbtn {
-        background-color: #292c33;
+        /* background-color: #292c33; */
+        background-color: black;
         color: white;
         padding: 14px 16px;
         font-size: x-large;
@@ -92,7 +94,8 @@ img{
       .dropdown-content {
         display: none;
         position: absolute;
-        background-color: #292c33;
+        /* background-color: #292c33; */
+        background-color: black;
         min-width: 120px;
         /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
         z-index: 1;
