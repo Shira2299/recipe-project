@@ -1,8 +1,8 @@
 <form [formGroup]="form" (submit)="addRecipe()">
     <label>שם המתכון:</label><br>
     <input type="text" formControlName="name" /><br><br>
-    <label>תמונה:</label><br>
-    <input type="text" formControlName="img" /><br><br>
+    <!-- <label>תמונה:</label><br>
+    <input type="text" formControlName="img" /><br><br> -->
     <label>זמן ההכנה:</label><br>
     <input type="text" formControlName="during" /><br><br>
     <div *ngIf="formAltaControls.during?.errors?.min || formAltaControls.during?.errors?.max">חובה מספר חיובי</div>
