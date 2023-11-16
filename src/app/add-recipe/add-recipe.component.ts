@@ -55,8 +55,7 @@ export class AddRecipeComponent {
       console.log('p.name:', p.name);
       if(p.did_buy == 0) //or cast to number if (Number(p.did_buy) === 0)
       {
-        console.log('enter to if ===0');
-        
+        console.log('enter to if ===0');       
         this.service.customers[this.service.customers.length-1].shoppingList?.push(p.name)
       }
     }
