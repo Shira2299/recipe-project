@@ -35,7 +35,8 @@
     }
     #all{  
         justify-content: space-around;
-      display: flex;
+        display: flex;
+        margin: 2%;
     }
     .a{
         border:black 1px solid;  

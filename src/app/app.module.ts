@@ -10,7 +10,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
 import { RecipeListComponent } from './recipe-list/recipe-list.component';
 import { RecipeTitleComponent } from './recipe-title/recipe-title.component';
-import { LeaderComponent } from './leader/leader.component';
 import { LoginComponent } from './login/login.component';
 import { AboutComponent } from './about/about.component';
 import { MyListComponent } from './my-list/my-list.component';
@@ -29,7 +28,6 @@ import { MatDialogModule } from '@angular/material/dialog'; // וודא שהספ
     FooterComponent,
     RecipeListComponent,
     RecipeTitleComponent,
-    LeaderComponent,
     LoginComponent,
     AboutComponent,
     MyListComponent,

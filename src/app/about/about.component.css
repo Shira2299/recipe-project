@@ -1,14 +1,4 @@
-/*עיצוב כללי לדף*/
-body {
-    /* direction:rtl; */
-    }
-    /* עיצוב כותרת */
-    /* h1 {
-        font-size: 60px;
-        color: #c24b7e;
-        text-align: center;
-    } */
-    /*עיצוב לפסקאות */
+/*עיצוב לפסקאות */
     p {
         font-size: 30px;
         font-family: Arial;
@@ -21,12 +11,11 @@ body {
     }
     /* עיצוב לוידאו */
 #video{
-    width: 40%;
+    width: 37%;
     height: auto;
     position: relative;
-    /* z-index: -1; */
     right: 30%;
-    margin-left: 60vw;
+    margin-left: 61vw;
 }
 
 /* עיצוב למלל */

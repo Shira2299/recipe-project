@@ -4,7 +4,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { ShowRecipeComponent } from './show-recipe/show-recipe.component';
 import { AddRecipeComponent } from './add-recipe/add-recipe.component';
 import { RecipeListComponent } from './recipe-list/recipe-list.component';
-import { LeaderComponent } from './leader/leader.component';
 import { LoginComponent } from './login/login.component';
 import { AboutComponent } from './about/about.component';
 import { MyListComponent } from './my-list/my-list.component';
@@ -14,7 +13,6 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 const routes: Routes = [
   {path: "", component:AboutComponent},
   {path: "list", component: RecipeListComponent },
-  {path: "leader", component: LeaderComponent},
   {path: "recipe/:id", component: ShowRecipeComponent},
   {path: "add", component: AddRecipeComponent},
   {path: "login", component: LoginComponent},

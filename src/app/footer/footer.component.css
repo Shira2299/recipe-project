@@ -1,11 +1,15 @@
 /* עיצוב כללי לדף */
 *{
     direction: rtl;
-    text-align: center;
+    text-align: center; 
+    background-color: black;
+    height:7vh;
+    /* margin: 2vh; */
 }
 /*עיצוב לפסקה*/
 p {
     color: #ffff;
     font-size: large;
     margin: 6px;
+    /* margin: 2px; */
 }
